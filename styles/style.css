@@ -316,35 +316,39 @@ hr{
         grid-template-columns: repeat(1, 1fr);
         justify-content: center;
         align-items: center;
-        margin-top: 150px;
         margin-bottom: 100px;
+        margin-left: 100px;
     }
 
     .match-heading{
         text-align: center;
         font-size: 24px;
         line-height: 30px;
+        margin-left: 50px;
+        padding-right: 150px;
   
     }
     .heading-description{
-        text-align: justify;
+        text-align: center;
         line-height: 10px;
         font-size: 14px;
         line-height: 30px;
+        padding-right: 100px;
         
   
     }
 
     .button-2{
-        text-align: center;
+        margin-right: 120px;
     }
 
 
     .match img{
-        width: 200px;
-        height: 250px;
+        width: 250px;
+        height: 300px;
         margin-top: 20px;
-        margin-left: 50px;
+
+
     }
 
     .best-player{
@@ -365,6 +369,7 @@ hr{
         align-items: center;
         margin-top: 150px;
         margin-bottom: 100px;
+        padding-left: 50px;
       
 }
     .best-player p{
@@ -377,15 +382,16 @@ hr{
     }
 
     .messi img{
-        width: 200px;
-        height: 250px;
+        width: 250px;
+        height: 300px;
         margin-top: 20px;
         margin-left: 50px;
 
     }
 
     .gallary-title{
-        margin-left: 140px;
+        margin-left: 20px;
+        text-align: center;
     }
 
 
