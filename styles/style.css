@@ -8,11 +8,28 @@ body{
 }
 
 /* Header Section  Start */
+
 header{
-    height: 677px;
+    height: 700px;
     background-color: #2D25A0;
     width: 100%;
 
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 30px;
+    
+
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    margin-right: 40px;
 }
 .top-header{
     display: grid;
@@ -179,7 +196,7 @@ header{
 
 
 .gallary-title{
-    margin-left: 100px;
+    margin-left: 125px;
     font-size: 1.5em;
     margin-top: 50px;
     margin-bottom: 1px;
@@ -269,6 +286,11 @@ hr{
 /* Mobile Device */
 
 @media only screen and (max-width: 688px){
+
+
+    nav{
+        display: none;
+    }
 
 
     .top-header{
