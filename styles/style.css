@@ -197,7 +197,8 @@ nav a{
 
 .gallary-title{
     margin-left: 125px;
-    font-size: 1.5em;
+    font-size: 1.2em;
+    color: rgb(7, 64, 90);
     margin-top: 50px;
     margin-bottom: 1px;
 }
@@ -266,7 +267,7 @@ footer img{
 .social-icon a{
    background-color: lightgray;
    text-decoration: none;
-   color: black;
+   color: rgb(90, 89, 89);
    padding: 5px;
    border-radius: 50px;
    margin: 5px;
@@ -281,7 +282,7 @@ hr{
 
 
 
-/* Media Quaryes */
+/* -----------------------------------------Media Quaryes -----------------------------------------*/
 
 /* Mobile Device */
 
@@ -302,21 +303,19 @@ hr{
 
     .top-heading{
         font-size: 36px;
-        text-align: center;
-        padding: 20px;
+        text-align: left;
         line-height: 60px;
         margin: 50px;
     }
 
-    .top-header .button{
-        text-align: center;
-        margin-right: 70px;
-    }
+   .button{
+       margin-left: 150px;
+   }
 
 
     .top-header img{
-        width: 300px;
-        height: 250px;
+        width: 400px;
+        height: 300px;
         margin-top: 0%;
         padding-top: 100px;
     }
@@ -339,19 +338,18 @@ hr{
         justify-content: center;
         align-items: center;
         margin-bottom: 100px;
-        margin-left: 100px;
+        margin-left: 50px;
     }
 
     .match-heading{
-        text-align: center;
-        font-size: 24px;
+        text-align: left;
+        font-size: 28px;
         line-height: 30px;
-        margin-left: 50px;
         padding-right: 150px;
   
     }
     .heading-description{
-        text-align: center;
+        text-align: left;
         line-height: 10px;
         font-size: 14px;
         line-height: 30px;
@@ -360,14 +358,13 @@ hr{
   
     }
 
-    .button-2{
-        margin-right: 120px;
-    }
+
+
 
 
     .match img{
-        width: 250px;
-        height: 300px;
+        width: 350px;
+        height: 350px;
         margin-top: 20px;
 
 
@@ -380,6 +377,7 @@ hr{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         font-size: 24px;
+        text-align: left;
         line-height: 40px;
         margin-left: 50px;
   
@@ -399,21 +397,24 @@ hr{
         text-align: justify;
     }
     .best-player, span{
-        text-align: center;
-        font-size: 14px;
+        text-align: left;
+        font-size: 18px;
+    }
+
+    .best-player span{
+        text-align: left;
     }
 
     .messi img{
-        width: 250px;
-        height: 300px;
+        width: 350px;
+        height: 350px;
         margin-top: 20px;
         margin-left: 50px;
 
     }
 
     .gallary-title{
-        margin-left: 20px;
-        text-align: center;
+        text-align: left;
     }
 
 
