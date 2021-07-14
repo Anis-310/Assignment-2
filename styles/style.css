@@ -212,6 +212,7 @@ nav a{
 .gallary{
     position: relative;
     display: flex;
+    row-gap: 12px;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
@@ -223,7 +224,7 @@ nav a{
 .gallary-images{
     width: 250px;
     height: 200px;
-    margin: 15px;
+    margin: 10px;
     position: relative;
 
 }
